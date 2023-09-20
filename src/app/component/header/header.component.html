@@ -1,12 +1,35 @@
 <div class="row  m-auto text-primary">
-    <div class="col-md-4 ms-4 text-start">
-        <a href="" class="navbar-brand">  MediBuddy</a>
+  <div class="col-md-4 ms-4 text-start">
+    <a href="" class="navbar-brand "> MediBuddy</a>
+  </div>
+  <div class="col-md-5 text-end">
+    <a href="" class="navbar-brand">Aboutus</a>
+    <a href="" class="navbar-brand ms-3" data-bs-toggle="modal" data-bs-target="#loginModal">Login</a>
+
+  </div>
+</div>
+
+
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-center" id="exampleModalLabel">Sign Up</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <app-sign-up></app-sign-up>
+        <app-login></app-login>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Login</button>
+        <button type="button" class="btn btn-primary">Sign-up</button>
+      </div>
     </div>
-       <div class="col-md-5 text-end">
-        <a href="" class="navbar-brand">Aboutus</a>
-        <a href="" class="navbar-brand ms-3">Login</a>
-    
-       </div>
-       </div>
-       
-       
+  </div>
+</div>
+
